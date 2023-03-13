@@ -1,0 +1,51 @@
+.form-control {
+    width: 100%;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.modal-footer {
+    border-top: unset !important;
+    justify-content: center !important;
+}
+.input-field{
+    width: 50% !important;
+    margin-top: 12px;
+}
+.sing-main{
+    background-color:#ddd;
+    display: block;
+    height:90vh;
+    width:100%;
+    margin-top: 21px;
+}
+.sing-main{
+    padding-top: 31vh;
+}
+button.btn.btn-primary {
+    display: block;
+    width: 10% !important;
+    margin: auto;
+}
+
+.form-control {
+    display: block;
+    width: 30% !important;
+    
+}
+
+@media screen and (max-width: 500px){
+    .sing-main{
+        padding-top: 31vh;
+    }
+    .input-field{
+        width: 90% !important;
+        margin-top: 12px;
+    }
+     
+}

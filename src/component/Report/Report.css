@@ -1,0 +1,36 @@
+form.text-area {
+    display: block;
+    width: 90%;
+    margin-top: 50px;
+}
+.report-main-containor{
+    height: 100vh;
+}
+button.btn.btn-primary {
+    width: 50%;
+    margin: auto;
+}
+.report-input-field{
+    width: 100% !important;
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    button.btn.btn-primary {
+        width: 20% !important;
+        display: block;
+    }
+    .report-input-field{
+        width: 100% !important;
+    }
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
